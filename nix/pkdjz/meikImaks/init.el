@@ -1,0 +1,10 @@
+(tool-bar-mode -1)
+(menu-bar-mode -1)
+(scroll-bar-mode -1)
+(delete-selection-mode 1)
+(electric-pair-mode 1)
+(recentf-mode 1)
+(custom-set-variables
+ '(recentf-max-menu-items 1024)
+ '(recentf-max-saved-items 10024)
+ '(inferior-lisp-program "sbcl"))

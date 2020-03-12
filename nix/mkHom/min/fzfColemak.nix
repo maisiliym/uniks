@@ -1,0 +1,14 @@
+[
+  "ctrl-o:up"
+  "ctrl-e:up"
+  "ctrl-n:down"
+  "ctrl-k:down"
+  "ctrl-i:clear-screen"
+  "ctrl-s:delete-char/eof"
+  "ctrl-f:end-of-line"
+  "alt-t:forward-word"
+  "alt-s:kill-word"
+  "ctrl-u:toggle+down"
+  "ctrl-l:unix-line-discard"
+  "ctrl-j:yank"
+]

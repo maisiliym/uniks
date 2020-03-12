@@ -1,0 +1,8 @@
+#+title: Uniks
+
+* A more correct =unix=
+Uniks is slated to be the first [[hob:sajban][sajban]]
+dialect. It aims to provide a /correct/ runtime for
+[[hob:krios][kriOS]] using linux. It can be thought of
+as an evolved version of nix, which is used
+for the bootstrap version.
