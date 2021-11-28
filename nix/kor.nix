@@ -166,12 +166,15 @@ rec {
   traceSeq = x: y:
     trace (builtins.deepSeq x x) y;
 
+  mkStoreHashPrefix = object: builtins.substring 11 7 object.narHash;
+
+  mkShortHash = object: builtins.substring 7 7 object.narHash;
+
   mkImplicitVersion = src:
     assert mesydj
-      ((hasAttr "shortRev" src) || (hasAttr "narHash" src))
-      (builtins.deepSeq src src);
+      ((hasAttr "shortRev" src) || (hasAttr "narHash" src));
     let
-      shortHash = builtins.substring 7 14 src.narHash;
+      shortHash = mkShortHash src;
     in
       src.shortRev or shortHash;
 

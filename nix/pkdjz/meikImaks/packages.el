@@ -188,7 +188,7 @@
   (global-fish-completion-mode))
 
 (use-package lispy
-  :hook ((emacs-lisp-mode shen-mode)
+  :hook ((emacs-lisp-mode lisp-mode)
 	 . lispy-mode))
 
 (use-package adaptive-wrap

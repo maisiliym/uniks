@@ -96,6 +96,26 @@
         "type": "github"
       }
     },
+    "aski": {
+      "inputs": {
+        "bootstrapKLambda": "bootstrapKLambda",
+        "lispPrimitives": "lispPrimitives",
+        "shenSource": "shenSource"
+      },
+      "locked": {
+        "lastModified": 1638070812,
+        "narHash": "sha256-R7mU3wVB62k5MKUaVCVPYrQYHt9Hb/Bvs0wjV9F4cvg=",
+        "owner": "sajban",
+        "repo": "aski",
+        "rev": "9c9246c6c5542bef1472b40c67cae35aeed1f5fc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sajban",
+        "repo": "aski",
+        "type": "github"
+      }
+    },
     "astronauta-nvim": {
       "flake": false,
       "locked": {
@@ -158,6 +178,18 @@
         "owner": "DanilaMihailov",
         "repo": "beacon.nvim",
         "type": "github"
+      }
+    },
+    "bootstrapKLambda": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-E/NVPgXUdN6X9b8PJ6cmKJ2yBUZ3OtmTs6UmCDKHsnA=",
+        "path": "./KLambda",
+        "type": "path"
+      },
+      "original": {
+        "path": "./KLambda",
+        "type": "path"
       }
     },
     "bufferize-vim": {
@@ -538,6 +570,7 @@
         "FTerm-nvim": "FTerm-nvim",
         "LuaFormatter": "LuaFormatter",
         "alacritty": "alacritty",
+        "aski": "aski",
         "astronauta-nvim": "astronauta-nvim",
         "barbar-nvim": "barbar-nvim",
         "base16-alacritty": "base16-alacritty",
@@ -621,11 +654,11 @@
         "zoxide-vim": "zoxide-vim"
       },
       "locked": {
-        "lastModified": 1635998618,
-        "narHash": "sha256-/CYuwjZwgLa+iUPr8otYoTlGO7idXsRa2wiFg1VgN7k=",
+        "lastModified": 1638069060,
+        "narHash": "sha256-u5ykAh2Ino1DAoAPppk6iKQCuLQ37LL/6XW3tjkAIpM=",
         "owner": "maisiliym",
         "repo": "hob",
-        "rev": "2b793c14002c2bd5ddc1d678f3365f78f8bc9d19",
+        "rev": "91e178ba474ed21043427a8c70753102ec866cd1",
         "type": "github"
       },
       "original": {
@@ -758,6 +791,18 @@
         "owner": "tamago324",
         "repo": "lir.nvim",
         "type": "github"
+      }
+    },
+    "lispPrimitives": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-Gm1wSL2sH/pGQM/Bl6Qjlb9n1K9wKQoyAP1qHPVB8Tg=",
+        "path": "./Primitives",
+        "type": "path"
+      },
+      "original": {
+        "path": "./Primitives",
+        "type": "path"
       }
     },
     "lowdown": {
@@ -1518,6 +1563,18 @@
         "owner": "NHALX",
         "repo": "shen-mode",
         "type": "github"
+      }
+    },
+    "shenSource": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-T35g38X1dkLEKr/YT2ga3MUesulRvM+kVOItlbsuV+8=",
+        "path": "./Sources",
+        "type": "path"
+      },
+      "original": {
+        "path": "./Sources",
+        "type": "path"
       }
     },
     "skrips": {
